@@ -26,17 +26,9 @@ format:
 #auto-stretch: disallow stretching of images, as it does not work for big images within custom dvs (tables, columns)
     auto-stretch: true
     include-in-header:
-      text: |
-        <script src="https://presentations.ontotext.com/js/ontotextStyle.js"></script>
-# two rows above are written following the discussion at https://github.com/quarto-dev/quarto-cli/discussions/6854
-#    - file: "https://presentations.ontotext.com/css/onto-style.html"
-#    - file: ../../css/onto-style.html
+    - file: ../../css/onto-style.html
     include-after-body:
-      text: |
-        <script src="https://presentations.ontotext.com/js/ontotextTitle.js"></script>
-# two rows above are written following the discussion at https://github.com/quarto-dev/quarto-cli/discussions/6854
-#    - file: "https://presentations.ontotext.com/css/onto-title.html"
-#    - file: ../../css/onto-title.html
+    - file: ../../css/onto-title.html
     menu:
       side: left
     title-slide-attributes:
