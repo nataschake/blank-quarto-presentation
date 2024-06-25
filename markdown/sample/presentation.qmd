@@ -84,6 +84,7 @@ INSERT DATA {
 }
 ```
 
+
 ## Quarto columns with images inside
 
 ::::{.columns}
